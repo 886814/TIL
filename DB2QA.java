@@ -87,7 +87,7 @@ public class DB2QA {
 
                 //서버에 데이터 보내기
                 String url = "http://10.38.136.119.8060/";
-                URI uri = UriComponentsBuilder.fromHttpUrl(url).path("api/func/product/kbProductQa").queryParam("pageSize", "5").queryParam("searchWord", cell.getStringCellValue()).queryParam("svcDstcd", "02")
+                URI uri = UriComponentsBuilder.fromHttpUrl(url).path("api/func/product/kbProductQa").queryParam("pageSize", "5").queryParam("searchWord", ).queryParam("svcDstcd", "02")
                         .encode().build().toUri();
 
                 //서버에서 데이터 받기
