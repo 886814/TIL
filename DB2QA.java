@@ -45,10 +45,9 @@ public class DB2QA {
         } catch (Exception e)
         return conn;
     }
+    
     public static void qaPost () thors Exception {
-
         try {
-
             Connection conn = null;
             PreparedStatement pstm = null;
             ResultSet rs = null;
