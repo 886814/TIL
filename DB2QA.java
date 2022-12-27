@@ -127,6 +127,5 @@ public class DB2QA {
             } catch (Exception e){
                     e.printStackTrace();
                 }
-
-    }
+        }
 }
